@@ -1,0 +1,43 @@
+Arguments: 
+  /Users/shaoyuyun/.nvm/versions/node/v10.15.0/bin/node /usr/local/Cellar/yarn/1.12.3/libexec/bin/yarn.js add Jest
+
+PATH: 
+  /Users/shaoyuyun/.deno/bin:/Users/shaoyuyun/.rvm/gems/ruby-2.4.1/bin:/Users/shaoyuyun/.rvm/gems/ruby-2.4.1@global/bin:/Users/shaoyuyun/.rvm/rubies/ruby-2.4.1/bin:/Users/shaoyuyun/.nvm/versions/node/v10.15.0/bin:/usr/local/share/python:/Users/shaoyuyun/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/aria2/bin:/Applications/Wireshark.app/Contents/MacOS:/Users/shaoyuyun/.deno/bin:/Users/shaoyuyun/.rvm/gems/ruby-2.4.1/bin:/Users/shaoyuyun/.rvm/gems/ruby-2.4.1@global/bin:/Users/shaoyuyun/.rvm/rubies/ruby-2.4.1/bin:/usr/local/share/python:/Users/shaoyuyun/.cargo/bin:/Users/shaoyuyun/.rvm/bin:<JAVA_HOME>/bin/java:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/shaoyuyun/.rvm/bin:<JAVA_HOME>/bin/java
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  10.15.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.npm.taobao.org/Jest: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.12.3/libexec/lib/cli.js:65894:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.12.3/libexec/lib/cli.js:129018:22)
+      at Request.emit (events.js:182:13)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.12.3/libexec/lib/cli.js:129990:10)
+      at Request.emit (events.js:182:13)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.12.3/libexec/lib/cli.js:129912:12)
+      at Object.onceWrapper (events.js:273:13)
+      at IncomingMessage.emit (events.js:187:15)
+      at endReadableNT (_stream_readable.js:1094:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "smart",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/triboby/smart.git",
+    "author": "Yuyun Shao <shaoyuyun@rd.netease.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

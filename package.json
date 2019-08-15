@@ -1,0 +1,17 @@
+{
+  "name": "smart",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/triboby/smart.git",
+  "author": "Yuyun Shao <shaoyuyun@rd.netease.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0"
+  }
+}
