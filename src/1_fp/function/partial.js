@@ -1,17 +1,5 @@
-export default {
-  bind: (func, ctx = {}, ...ra) => {
-    ctx.f = func;
-    return (...args) => {
-      ctx.f(...ra, ...args)
-      delete ctx.f;
-    }
-  },
-  call: (func, ctx = {}, ...ra) => {
-
-  },
-  apply: (func, ctx = {}, ...ra) => {
-
-  }
+export default function partial(func, ...args) {
+  return (...rest) => func(...args, ...rest);
 }
 
 

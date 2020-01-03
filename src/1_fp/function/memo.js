@@ -13,9 +13,8 @@ export default function memo(func, hasher){
   return function x(...args){
     let key = '' + (hasher ? hasher(...args):args[0]);
     if(!cache[key]){
-      return func(...args);
+      cache[key] = func(...args);
     }
-    console.log(cache);
     return cache[key];
   };
 }
